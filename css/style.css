@@ -142,6 +142,14 @@
         z-index: 999;
         background: transparent !important;
     }
+
+    .team-item {
+        box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+        height: calc(100% - 38px);
+        transition: .5s;
+        position: relative;
+        left: 300px;
+    }
     
     .sticky-top.navbar-dark {
         position: fixed;
@@ -355,8 +363,6 @@
     box-shadow: 0 0 45px rgba(0, 0, 0, .08);
     height: calc(100% - 38px);
     transition: .5s;
-    position: relative;
-    left: 280px;
 }
 
 .team-item img {
