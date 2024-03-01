@@ -355,6 +355,8 @@
     box-shadow: 0 0 45px rgba(0, 0, 0, .08);
     height: calc(100% - 38px);
     transition: .5s;
+    position: relative;
+    left: 280px;
 }
 
 .team-item img {
